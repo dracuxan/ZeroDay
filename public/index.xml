@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome!</title>
-    <link>http://bynisarg.in:1313/</link>
+    <link>/</link>
     <description>Recent content on Welcome!</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="http://bynisarg.in:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post - Setting Up this Blog&#39;s Pipeline</title>
-      <link>http://bynisarg.in:1313/posts/first-post---setting-up-this-blogs-pipeline/</link>
+      <link>/posts/first-post---setting-up-this-blogs-pipeline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://bynisarg.in:1313/posts/first-post---setting-up-this-blogs-pipeline/</guid>
+      <guid>/posts/first-post---setting-up-this-blogs-pipeline/</guid>
       <description>Obsidian The first step in making of my blog. Here I write my blogs in .md format. Hugo Amazing tool that helps make website from the obsidian notes. </description>
       <content>&lt;h1 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h1&gt;
 &lt;ul&gt;
@@ -27,10 +27,10 @@
     
     <item>
       <title>Intro</title>
-      <link>http://bynisarg.in:1313/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://bynisarg.in:1313/about/</guid>
+      <guid>/about/</guid>
       <description>A Simple Intro </description>
       <content>&lt;h1 id=&#34;a-simple-intro&#34;&gt;A Simple Intro&lt;/h1&gt;
 </content>
@@ -38,10 +38,10 @@
     
     <item>
       <title>Yolo! It&#39;s Me Nisarg!</title>
-      <link>http://bynisarg.in:1313/home/home/</link>
+      <link>/home/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://bynisarg.in:1313/home/home/</guid>
+      <guid>/home/home/</guid>
       <description></description>
       <content></content>
     </item>
