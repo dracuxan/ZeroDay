@@ -2,19 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Homes on Welcome!</title>
-    <link>/home/</link>
+    <link>//localhost:1313/home/</link>
     <description>Recent content in Homes on Welcome!</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/home/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Yolo! It&#39;s Me Nisarg!</title>
-      <link>/home/home/</link>
+      <link>//localhost:1313/home/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/home/home/</guid>
+      <guid>//localhost:1313/home/home/</guid>
       <description></description>
-      <content></content>
     </item>
-    
   </channel>
 </rss>

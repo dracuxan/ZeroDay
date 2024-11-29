@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>/posts/first-post---setting-up-this-blogs-pipeline/</loc>
+    <loc>//localhost:1313/posts/first-post---setting-up-this-blogs-pipeline/</loc>
   </url><url>
-    <loc>/home/</loc>
+    <loc>//localhost:1313/home/</loc>
   </url><url>
-    <loc>/about/</loc>
+    <loc>//localhost:1313/about/</loc>
   </url><url>
-    <loc>/posts/</loc>
+    <loc>//localhost:1313/posts/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
   </url><url>
-    <loc>/</loc>
+    <loc>//localhost:1313/</loc>
   </url><url>
-    <loc>/home/home/</loc>
+    <loc>//localhost:1313/home/home/</loc>
   </url>
 </urlset>
