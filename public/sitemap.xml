@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>http://bynisarg.in:1313/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/posts/first-post---setting-up-this-blogs-pipeline/</loc>
+    <loc>http://bynisarg.in:1313/posts/first-post---setting-up-this-blogs-pipeline/</loc>
   </url><url>
-    <loc>//localhost:1313/home/</loc>
+    <loc>http://bynisarg.in:1313/home/</loc>
   </url><url>
-    <loc>//localhost:1313/about/</loc>
+    <loc>http://bynisarg.in:1313/about/</loc>
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>http://bynisarg.in:1313/posts/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>http://bynisarg.in:1313/tags/</loc>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>http://bynisarg.in:1313/</loc>
   </url><url>
-    <loc>//localhost:1313/home/home/</loc>
+    <loc>http://bynisarg.in:1313/home/home/</loc>
   </url>
 </urlset>
