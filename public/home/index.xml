@@ -4,15 +4,17 @@
     <title>Homes on Welcome!</title>
     <link>//localhost:1313/home/</link>
     <description>Recent content in Homes on Welcome!</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="//localhost:1313/home/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="//localhost:1313/home/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Yolo! It&#39;s Me Nisarg!</title>
       <link>//localhost:1313/home/home/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
       <guid>//localhost:1313/home/home/</guid>
       <description></description>
+      <content></content>
     </item>
+    
   </channel>
 </rss>
