@@ -6,10 +6,14 @@
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/posts/first-post---setting-up-this-blogs-pipeline/</loc>
+    <loc>//localhost:1313/tags/index/</loc>
   </url><url>
     <loc>//localhost:1313/posts/</loc>
   </url><url>
+    <loc>//localhost:1313/posts/setting-up-this-blogs-pipeline/</loc>
+  </url><url>
     <loc>//localhost:1313/tags/</loc>
+  </url><url>
+    <loc>//localhost:1313/posts/testing/</loc>
   </url>
 </urlset>

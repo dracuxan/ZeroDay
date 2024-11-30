@@ -7,12 +7,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Post - Setting Up this Blog&#39;s Pipeline</title>
-      <link>//localhost:1313/posts/first-post---setting-up-this-blogs-pipeline/</link>
+      <title>Setting Up this Blog&#39;s Pipeline</title>
+      <link>//localhost:1313/posts/setting-up-this-blogs-pipeline/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/posts/first-post---setting-up-this-blogs-pipeline/</guid>
-      <description>Obsidian The first step in making of my blog. Here I write my blogs in .md format. Hugo Amazing tool that helps make website from the obsidian notes. </description>
+      <guid>//localhost:1313/posts/setting-up-this-blogs-pipeline/</guid>
+      <description>Obsidian The first step in making of my blog. Here I write my blogs in .md format. Hugo Amazing tool that helps make website from Markdown files. </description>
       <content>&lt;h1 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;The first step in making of my blog.&lt;/li&gt;
@@ -20,9 +20,19 @@
 &lt;/ul&gt;
 &lt;h1 id=&#34;hugo&#34;&gt;Hugo&lt;/h1&gt;
 &lt;ul&gt;
-&lt;li&gt;Amazing tool that helps make website from the obsidian notes.&lt;/li&gt;
+&lt;li&gt;Amazing tool that helps make website from Markdown files.&lt;/li&gt;
 &lt;/ul&gt;
 </content>
+    </item>
+    
+    <item>
+      <title>Testing Post Functions</title>
+      <link>//localhost:1313/posts/testing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/posts/testing/</guid>
+      <description></description>
+      <content></content>
     </item>
     
   </channel>
