@@ -88,3 +88,7 @@ paginate = 5
           identifier = "projects"
           name = "Projects"
           url = "/projects"
+        [[languages.en.menu.main]]
+          identifier = "contact"
+          name = "Contact"
+          url = "/contact"
