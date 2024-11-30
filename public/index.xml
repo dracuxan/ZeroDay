@@ -5,15 +5,17 @@
     <link>//localhost:1313/</link>
     <description>Recent content on Welcome!</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting Up this Blog&#39;s Pipeline</title>
       <link>//localhost:1313/posts/setting-up-this-blogs-pipeline/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/setting-up-this-blogs-pipeline/</guid>
-      <description>Obsidian The first step in making of my blog. Here I write my blogs in .md format. Hugo Amazing tool that helps make website from Markdown files. </description>
-      <content>&lt;h1 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h1&gt;
+      <description>&lt;p&gt;This is a ez guide to setup your very own ZeroDay&lt;/p&gt;</description>
+      <content>&lt;p&gt;This is a ez guide to setup your very own ZeroDay&lt;/p&gt;
+&lt;h1 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;The first step in making of my blog.&lt;/li&gt;
 &lt;li&gt;Here I write my blogs in .md format.&lt;/li&gt;
@@ -21,19 +23,18 @@
 &lt;h1 id=&#34;hugo&#34;&gt;Hugo&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;Amazing tool that helps make website from Markdown files.&lt;/li&gt;
-&lt;/ul&gt;
-</content>
+&lt;/ul&gt;</content>
     </item>
     
     <item>
       <title>Testing Post Functions</title>
       <link>//localhost:1313/posts/testing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/testing/</guid>
-      <description>Test blog Post </description>
-      <content>&lt;h2 id=&#34;test-blog-post&#34;&gt;Test blog Post&lt;/h2&gt;
-</content>
+      <description>&lt;p&gt;Testing Blog Functions&lt;/p&gt;</description>
+      <content>&lt;p&gt;Testing Blog Functions&lt;/p&gt;
+&lt;h2 id=&#34;test-blog-post&#34;&gt;Test blog Post&lt;/h2&gt;</content>
     </item>
     
   </channel>

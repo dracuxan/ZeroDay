@@ -1,6 +1,8 @@
 +++
 title = "Setting Up this Blog's Pipeline"
 author = "Nisarg"
+date = 2024-11-30
+tags = ["ez", "guide", "setup"]
 +++
 This is a ez guide to setup your very own ZeroDay
 <!--more-->
