@@ -1,6 +1,7 @@
----
-title: Setting Up this Blog's Pipeline
----
++++
+title = "Setting Up this Blog's Pipeline"
+author = "Nisarg"
++++
 # Obsidian
 - The first step in making of my blog.
 - Here I write my blogs in .md format.
