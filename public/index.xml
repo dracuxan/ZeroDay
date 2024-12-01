@@ -13,7 +13,7 @@
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/setting-up-this-blogs-pipeline/</guid>
-      <description>&lt;p&gt;This is a ez guide to setup your very own ZeroDay&lt;/p&gt;</description>
+      <description></description>
       <content>&lt;p&gt;This is a ez guide to setup your very own ZeroDay&lt;/p&gt;
 &lt;h1 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h1&gt;
 &lt;ul&gt;
@@ -27,7 +27,7 @@
     </item>
     
     <item>
-      <title>Testing Post Functions</title>
+      <title>Testing Blog Functions</title>
       <link>//localhost:1313/posts/testing/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
       
@@ -43,8 +43,12 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/contact/</guid>
-      <description> </description>
-      <content>&lt;!-- more --&gt;
+      <description>You can reach out to me on LinkedIn or Instagram
+Or just email me here
+Check out my GitHub to see more of my Projects!</description>
+      <content>&lt;p&gt;You can reach out to me on &lt;a href=&#34;https://linkedin.com/in/nisargkhodke&#34;&gt;&lt;code&gt;LinkedIn&lt;/code&gt;&lt;/a&gt; or &lt;a href=&#34;https://www.instagram.com/nisarg_2061/&#34;&gt;&lt;code&gt;Instagram&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Or just email me &lt;a href=&#34;mailto:nisargkhodke@gmail.com&#34;&gt;&lt;code&gt;here&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Check out my &lt;a href=&#34;https://github.com/Nisarg2061&#34;&gt;&lt;code&gt;GitHub&lt;/code&gt;&lt;/a&gt; to see more of my &lt;strong&gt;Projects&lt;/strong&gt;!&lt;/p&gt;
 </content>
     </item>
     

@@ -1,5 +1,3 @@
-+++
-title = "Posts"
-author = "Nisarg"
-tags = ["index"]
-+++
+---
+title: "Some Random Posts"
+---

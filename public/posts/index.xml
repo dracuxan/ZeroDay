@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Welcome!</title>
+    <title>Some Random Posts on Welcome!</title>
     <link>//localhost:1313/posts/</link>
-    <description>Recent content in Posts on Welcome!</description>
+    <description>Recent content in Some Random Posts on Welcome!</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/posts/setting-up-this-blogs-pipeline/</guid>
-      <description>&lt;p&gt;This is a ez guide to setup your very own ZeroDay&lt;/p&gt;</description>
+      <description></description>
       <content>&lt;p&gt;This is a ez guide to setup your very own ZeroDay&lt;/p&gt;
 &lt;h1 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h1&gt;
 &lt;ul&gt;
@@ -27,7 +27,7 @@
     </item>
     
     <item>
-      <title>Testing Post Functions</title>
+      <title>Testing Blog Functions</title>
       <link>//localhost:1313/posts/testing/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
       

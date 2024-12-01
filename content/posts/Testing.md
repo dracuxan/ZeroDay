@@ -1,5 +1,5 @@
 +++
-title = "Testing Post Functions"
+title = "Testing Blog Functions"
 author = "Nisarg"
 date = 2024-11-30
 tags = ["Testing", "123"]
