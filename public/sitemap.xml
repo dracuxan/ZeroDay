@@ -8,9 +8,6 @@
     <loc>//localhost:1313/tags/123/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
-    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/tags/ez/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
@@ -21,6 +18,9 @@
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/setup/</loc>
+    <lastmod>2024-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
     <lastmod>2024-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
@@ -34,8 +34,8 @@
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/contact/</loc>
-  </url><url>
     <loc>//localhost:1313/projects/</loc>
+  </url><url>
+    <loc>//localhost:1313/contact/</loc>
   </url>
 </urlset>
