@@ -1,10 +1,10 @@
 <footer class="footer">
   <div class="footer__inner">
       <div class="copyright">
-        <span> © {{ now.Year }} <a href="https://github.com/Nisarg2061" target="_blank">Nisarg</a></span>
+        <span> {{ now.Year }} © <a href="https://github.com/Nisarg2061" target="_blank">Nisarg</a></span>
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
       </div>
   </div>
-</footer>
 
 {{ $menu := resources.Get "js/menu.js" | js.Build }}
 {{ $prism := resources.Get "js/prism.js" | js.Build }}
