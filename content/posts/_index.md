@@ -1,3 +1,3 @@
 ---
-title: "Some Random Posts"
+title: Some Random Posts
 ---

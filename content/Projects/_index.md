@@ -1,4 +1,3 @@
-+++
-title = "Comming Soon!"
-+++
-## Coming Soon!
+---
+title: Comming Soon!
+---

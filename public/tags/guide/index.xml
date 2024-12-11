@@ -1,30 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Guide on Welcome!</title>
+    <title>Guide on dracuxan</title>
     <link>//localhost:1313/tags/guide/</link>
-    <description>Recent content in Guide on Welcome!</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Guide on dracuxan</description>
+    <image>
+      <title>dracuxan</title>
+      <url>//localhost:1313/images/papermod-cover.png</url>
+      <link>//localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.131.0</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/tags/guide/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Setting Up this Blog&#39;s Pipeline</title>
-      <link>//localhost:1313/posts/setting-up-this-blogs-pipeline/</link>
+      <link>//localhost:1313/posts/setting-up/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/posts/setting-up-this-blogs-pipeline/</guid>
-      <description></description>
-      <content>&lt;p&gt;This is a ez guide to setup your very own ZeroDay&lt;/p&gt;
-&lt;h1 id=&#34;obsidian&#34;&gt;Obsidian&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;The first step in making of my blog.&lt;/li&gt;
-&lt;li&gt;Here I write my blogs in .md format.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;hugo&#34;&gt;Hugo&lt;/h1&gt;
-&lt;ul&gt;
-&lt;li&gt;Amazing tool that helps make website from Markdown files.&lt;/li&gt;
-&lt;/ul&gt;</content>
+      <guid>//localhost:1313/posts/setting-up/</guid>
+      <description>&lt;p&gt;A Guide to set up your own ZeroDay&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
