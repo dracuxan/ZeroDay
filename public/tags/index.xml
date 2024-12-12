@@ -11,42 +11,6 @@
     </image>
     <generator>Hugo -- 0.131.0</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>123</title>
-      <link>//localhost:1313/tags/123/</link>
-      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/123/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ez</title>
-      <link>//localhost:1313/tags/ez/</link>
-      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/ez/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Guide</title>
-      <link>//localhost:1313/tags/guide/</link>
-      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/guide/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Setup</title>
-      <link>//localhost:1313/tags/setup/</link>
-      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/setup/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Testing</title>
-      <link>//localhost:1313/tags/testing/</link>
-      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/tags/testing/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

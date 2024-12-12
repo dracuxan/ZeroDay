@@ -30,7 +30,7 @@ languages:
       main:
         - name: Contact
           url: contact
-          weight: 5
+          weight: 10
         - name: Projects
           url: projects
           weight: 10
@@ -38,7 +38,7 @@ languages:
           url: posts
           weight: 10
         - name: Github
-          url: https://github.com/dracuxan/
+          url: https://github.com/dracuxan/ZeroDay
 
 
 
@@ -58,7 +58,7 @@ params:
   # disableThemeToggle: true
   ShowShareButtons: true
   ShowReadingTime: true
-  # disableSpecial1stPost: true
+  disableSpecial1stPost: true
   displayFullLangName: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
@@ -144,22 +144,22 @@ markup:
     # lineNos: true
     # style: monokai
 
-# privacy:
-#   vimeo:
-#     disabled: false
+privacy:
+  vimeo:
+    disabled: true
 #     simple: true
 
-#   twitter:
-#     disabled: false
+  twitter:
+    disabled: true
 #     enableDNT: true
 #     simple: true
 
-#   instagram:
-#     disabled: false
+  instagram:
+    disabled: true
 #     simple: true
 
-#   youtube:
-#     disabled: false
+  youtube:
+    disabled: true
 #     privacyEnhanced: true
 
 services:

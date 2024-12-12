@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Comming Soon! on dracuxan</title>
+    <title>My Random Projects on dracuxan</title>
     <link>//localhost:1313/projects/</link>
-    <description>Recent content in Comming Soon! on dracuxan</description>
+    <description>Recent content in My Random Projects on dracuxan</description>
     <image>
       <title>dracuxan</title>
       <url>//localhost:1313/images/papermod-cover.png</url>
@@ -11,6 +11,14 @@
     </image>
     <generator>Hugo -- 0.131.0</generator>
     <language>en</language>
+    <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ZeroDay - A Vault to Day 0 of all my Projects</title>
+      <link>//localhost:1313/projects/zeroday/</link>
+      <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/projects/zeroday/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

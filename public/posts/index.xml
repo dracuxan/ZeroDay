@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Some Random Posts on dracuxan</title>
+    <title>My Random Thoughts on dracuxan</title>
     <link>//localhost:1313/posts/</link>
-    <description>Recent content in Some Random Posts on dracuxan</description>
+    <description>Recent content in My Random Thoughts on dracuxan</description>
     <image>
       <title>dracuxan</title>
       <url>//localhost:1313/images/papermod-cover.png</url>
@@ -14,10 +14,10 @@
     <lastBuildDate>Sat, 30 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Setting Up this Blog&#39;s Pipeline</title>
-      <link>//localhost:1313/posts/setting-things-up/</link>
+      <title>Why ZeroDay?</title>
+      <link>//localhost:1313/posts/why-zeroday/</link>
       <pubDate>Sat, 30 Nov 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/setting-things-up/</guid>
+      <guid>//localhost:1313/posts/why-zeroday/</guid>
       <description></description>
     </item>
   </channel>
