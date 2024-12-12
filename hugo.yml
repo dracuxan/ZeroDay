@@ -98,6 +98,9 @@ params:
     - name: Discord
       title: Play Valo with me!
       url: "https://discord.gg/ahpmTvhVmp"
+    - name: X
+      title: Follow me on X
+      url: "https://x.com/dracuxan"
 
 
   # label:
