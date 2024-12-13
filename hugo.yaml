@@ -58,7 +58,7 @@ params:
   # disableThemeToggle: true
   ShowShareButtons: true
   ShowReadingTime: true
-  disableSpecial1stPost: true
+  # disableSpecial1stPost: true
   displayFullLangName: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
@@ -85,16 +85,17 @@ params:
 
   homeInfoParams:
     Title: "Nisarg Khodke"
-
-    Content: "I’m a CS undergrad who loves building and breaking things. I’m an optimist who believes coding can solve it all. You’ll usually find me coding, but when I’m not, I’m either reading a book, watching a movie, or playing Valorant (ping me on Discord!)."
+    Content: >
+      I’m a CS undergrad who loves building and breaking things. I’m an optimist who believes coding can solve it all.
+      You’ll usually find me coding, but when I’m not, I’m either reading a book, watching a movie, or playing Valorant (ping me on Discord!).
 
   socialIcons:
     - name: github
       title: Follow me on Github
       url: "https://github.com/dracuxan"
-    - name: LinkedIn
-      title: Connect with me on LinkedIn
-      url: "https://linkedin.com/in/nisargkhodke"
+    # - name: LinkedIn
+    #   title: Connect with me on LinkedIn
+    #   url: "https://linkedin.com/in/nisargkhodke"
     - name: Discord
       title: Play Valo with me!
       url: "https://discord.gg/ahpmTvhVmp"
@@ -147,23 +148,23 @@ markup:
     # lineNos: true
     # style: monokai
 
-privacy:
-  vimeo:
-    disabled: true
-#     simple: true
-
-  twitter:
-    disabled: true
-#     enableDNT: true
-#     simple: true
-
-  instagram:
-    disabled: true
-#     simple: true
-
-  youtube:
-    disabled: true
-#     privacyEnhanced: true
+# privacy:
+#   vimeo:
+#     disabled: true
+# #     simple: true
+#
+#   twitter:
+#     disabled: true
+# #     enableDNT: true
+# #     simple: true
+#
+#   instagram:
+#     disabled: true
+# #     simple: true
+#
+#   youtube:
+#     disabled: true
+# #     privacyEnhanced: true
 
 services:
   instagram:

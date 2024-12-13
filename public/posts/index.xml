@@ -20,5 +20,12 @@
       <guid>//localhost:1313/posts/why-zeroday/</guid>
       <description></description>
     </item>
+    <item>
+      <title>What is The Thrift Project?</title>
+      <link>//localhost:1313/posts/what-is-the-thrift-project/</link>
+      <pubDate>Fri, 22 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/posts/what-is-the-thrift-project/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
