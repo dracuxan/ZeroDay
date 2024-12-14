@@ -120,11 +120,11 @@ params:
   #         SiteVerificationTag: "XYZabc"
 
   assets:
-    favicon: "https://i.ibb.co/z8TPL0C/dragon.jpg"
-    favicon16x16: "https://i.ibb.co/z8TPL0C/dragon.jpg"
-    favicon32x32: "https://i.ibb.co/z8TPL0C/dragon.jpg"
-    apple_touch_icon: "https://i.ibb.co/z8TPL0C/dragon.jpg"
-    safari_pinned_tab: "https://i.ibb.co/z8TPL0C/dragon.jpg"
+    favicon: "https://i.ibb.co/W6w4rRj/dragon.png"
+    favicon16x16: "https://i.ibb.co/W6w4rRj/dragon.png"
+    favicon32x32: "https://i.ibb.co/W6w4rRj/dragon.png"
+    apple_touch_icon: "https://i.ibb.co/W6w4rRj/dragon.png"
+    safari_pinned_tab: "https://i.ibb.co/W6w4rRj/dragon.png"
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
