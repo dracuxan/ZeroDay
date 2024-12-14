@@ -1,8 +1,7 @@
-# If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
-# contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
 baseURL: "/"
 title: dracuxan
-paginate: 5
+paginate: 3
+
 theme: [PaperMod]
 
 enableInlineShortcodes: true
@@ -28,16 +27,19 @@ languages:
       series: series
     menu:
       main:
-        - name: Contact
-          url: contact
-          weight: 10
-        - name: Projects
-          url: projects
-          weight: 10
+        - name: About
+          url: about
+          weight: 1
         - name: Posts
           url: posts
-          weight: 10
-        - name: Github
+          weight: 2
+        - name: Projects
+          url: projects
+          weight: 3
+        # - name: Archives
+        #   url: archives
+        #   weight: 10
+        - name: GitHub
           url: https://github.com/dracuxan/ZeroDay
 
 
@@ -51,12 +53,12 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: "A vault to Day-00"
-  author: dracuxan
+  author:
   # author: ["Me", "You"] # multiple authors
 
   defaultTheme: auto
   # disableThemeToggle: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowReadingTime: true
   # disableSpecial1stPost: true
   displayFullLangName: true
@@ -66,39 +68,42 @@ params:
   ShowRssButtonInSectionTermList: true
   ShowAllPagesInArchive: true
   ShowPageNums: true
-  ShowToc: true
-  # comments: false
+  ShowToc: false
+  # comments: true
   images: ["images/papermod-cover.png"]
 
   profileMode:
     enabled: false
-    title: PaperMod
-    imageUrl: "#"
-    imageTitle: my image
+    title: Nisarg Khodke
+    subtitle: ""
+    # imageUrl: "#"
+    # imageTitle: my image
     # imageWidth: 120
     # imageHeight: 120
     buttons:
-      - name: Archives
-        url: archives
-      - name: Tags
-        url: tags
+      - name: About
+        url: about
+      - name: Posts
+        url: posts
+      - name: Projects
+        url: projects
 
   homeInfoParams:
     Title: "Nisarg Khodke"
     Content: >
-      I’m a CS undergrad who loves building and breaking things. I’m an optimist who believes coding can solve it all.
-      You’ll usually find me coding, but when I’m not, I’m either reading a book, watching a movie, or playing Valorant (ping me on Discord!).
+      Yet another CS undergrad trying to build yet another reliable software.
 
+      - [__[Read more]__](/about)
   socialIcons:
     - name: github
       title: Follow me on Github
       url: "https://github.com/dracuxan"
-    # - name: LinkedIn
-    #   title: Connect with me on LinkedIn
-    #   url: "https://linkedin.com/in/nisargkhodke"
-    - name: Discord
-      title: Play Valo with me!
-      url: "https://discord.gg/ahpmTvhVmp"
+    - name: LinkedIn
+      title: Connect with me on LinkedIn
+      url: "https://linkedin.com/in/nisargkhodke"
+    # - name: Discord
+    #   title: Play Valo with me!
+    #   url: "https://discord.gg/ahpmTvhVmp"
     - name: X
       title: Follow me on X
       url: "https://x.com/dracuxan"
@@ -115,12 +120,11 @@ params:
   #         SiteVerificationTag: "XYZabc"
 
   assets:
-    disableHLJS: true
-  #     favicon: "<link / abs url>"
-  #     favicon16x16: "<link / abs url>"
-  #     favicon32x32: "<link / abs url>"
-  #     apple_touch_icon: "<link / abs url>"
-  #     safari_pinned_tab: "<link / abs url>"
+    favicon: "https://i.ibb.co/z8TPL0C/dragon.jpg"
+    favicon16x16: "https://i.ibb.co/z8TPL0C/dragon.jpg"
+    favicon32x32: "https://i.ibb.co/z8TPL0C/dragon.jpg"
+    apple_touch_icon: "https://i.ibb.co/z8TPL0C/dragon.jpg"
+    safari_pinned_tab: "https://i.ibb.co/z8TPL0C/dragon.jpg"
 
   # cover:
   #     hidden: true # hide everywhere but not in structured data
