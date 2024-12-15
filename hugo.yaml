@@ -1,6 +1,6 @@
 baseURL: "/"
 title: dracuxan
-paginate: 3
+paginate: 5
 
 theme: [PaperMod]
 
