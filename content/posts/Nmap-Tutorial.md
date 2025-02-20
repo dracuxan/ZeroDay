@@ -106,6 +106,16 @@ while read -r line; do
   fi
 done <<< "${RESULT}"
 ```
+**Under the hood - **
+- Assigns the output of the Nmap command to RESULT, filtering for lines containing "Nmap scan report" or "tcp open".
+
+- Reads RESULT line by line to identify open ports.
+
+- Extracts the IP address from lines containing "report for".
+
+- Extracts the open port number from other lines.
+
+- Creates a file named port-NUMBER.txt and appends the corresponding IP address to it.
 
 ---
 
@@ -143,6 +153,19 @@ while true; do
   fi
 done
 ```
+**Under the hood - **
+
+- Starts an infinite loop to continuously scan a specified IP address and port using RustScan.
+
+- Uses the -g option for grep-friendly output and -p for specifying the port.
+
+- If the port is open, runs the service_discovery function to perform an Nmap service version scan and logs the result in watchdog.log.
+
+- If the port is closed, the script waits for five seconds before retrying.
+
+- Repeats the process until the port is found open.
+
+
 
 ---
 
