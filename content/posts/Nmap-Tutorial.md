@@ -38,7 +38,7 @@ Nmap supports various scan types, each serving a different purpose:
 1. **TCP SYN Scan (Stealth Scan)**
 
    ```bash
-   $ nmap -sS 172.16.10.1
+   $ nmap -sS scanme.nmap.org
    ```
 
    - Sends SYN packets to check for open ports without establishing a full connection.
@@ -46,7 +46,7 @@ Nmap supports various scan types, each serving a different purpose:
 2. **TCP Connect Scan**
 
    ```bash
-   $ nmap -sT 172.16.10.1
+   $ nmap -sT scanme.nmap.org
    ```
 
    - Establishes a full connection to determine open ports.
@@ -54,7 +54,7 @@ Nmap supports various scan types, each serving a different purpose:
 3. **UDP Scan**
 
    ```bash
-   $ nmap -sU 172.16.10.1
+   $ nmap -sU scanme.nmap.org
    ```
 
    - Scans for open UDP ports, useful for detecting services like DNS and SNMP.
@@ -62,7 +62,7 @@ Nmap supports various scan types, each serving a different purpose:
 4. **Aggressive Scan**
 
    ```bash
-   $ nmap -A 172.16.10.1
+   $ nmap -A scanme.nmap.org
    ```
 
    - Performs OS detection, version detection, script scanning, and traceroute.
@@ -70,7 +70,7 @@ Nmap supports various scan types, each serving a different purpose:
 5. **Scanning a Specific Port Range**
 
    ```bash
-   $ nmap -p 80,443,22 172.16.10.1
+   $ nmap -p 80,443,22 scanme.nmap.org
    ```
 
    - Scans for specific ports instead of all available ones.
@@ -78,7 +78,7 @@ Nmap supports various scan types, each serving a different purpose:
 6. **Service and Version Detection**
 
    ```bash
-   $ nmap -sV 172.16.10.1
+   $ nmap -sV scanme.nmap.org
    ```
 
    - Identifies running services and their versions on the target.
