@@ -1,12 +1,12 @@
 ---
 author: Nisarg
-date: "2024-11-30"
+date: "2025-02-20"
 title: Nmap Basic Tutorial
 ---
+## What is Nmap?
+Nmap (Network Mapper) is an open-source tool used for network discovery and security auditing. It allows users to scan networks and discover hosts, services, and open ports, providing valuable insights for penetration testing and network administration.
 
-**Basic - What is Nmap?** Nmap (Network Mapper) is an open-source tool used for network discovery and security auditing. It allows users to scan networks and discover hosts, services, and open ports, providing valuable insights for penetration testing and network administration.
-
-**Example - Basic Execution** A simple Nmap execution to discover live hosts using a ping sweep:
+**A simple Nmap execution to discover live hosts using a ping sweep:**
 
 ```bash
 $ nmap -sn 172.16.10.0/24
@@ -31,7 +31,9 @@ $ nmap -sn 172.16.10.0/24 | grep "Nmap scan" | awk -F'report for ' '{print $2}'
 
 ---
 
-**Intermediate - Different Types of Scans** Nmap supports various scan types, each serving a different purpose:
+### Different Types of Scans
+
+Nmap supports various scan types, each serving a different purpose:
 
 1. **TCP SYN Scan (Stealth Scan)**
 
@@ -83,48 +85,66 @@ $ nmap -sn 172.16.10.0/24 | grep "Nmap scan" | awk -F'report for ' '{print $2}'
 
 ---
 
-**Final - Nmap Scripting Engine (NSE)** The Nmap Scripting Engine (NSE) allows automation of network tasks, including vulnerability detection and exploitation.
+## Writing Scripts Using Nmap
 
-1. **Running Default Scripts**
+**Categorizing Open Ports**
+This script reads a list of target IPs, scans them with Nmap, and categorizes open ports into separate files.
 
-   ```bash
-   $ nmap -sC 172.16.10.1
-   ```
+```bash
+#!/bin/bash
+HOSTS_FILE="172-16-10-hosts.txt"
+RESULT=$(nmap -iL ${HOSTS_FILE} --open | grep "Nmap scan report\|tcp open")
 
-   - Executes default scripts for additional information.
-
-2. **Detecting Vulnerabilities**
-
-   ```bash
-   $ nmap --script=vuln 172.16.10.1
-   ```
-
-   - Runs vulnerability detection scripts.
-
-3. **Checking for Open Ports and Services with Detailed Scripts**
-
-   ```bash
-   $ nmap -p 80 --script=http-* 172.16.10.1
-   ```
-
-   - Runs all HTTP-related scripts against port 80.
-
-4. **Using NSE for Brute Force Attacks**
-
-   ```bash
-   $ nmap --script=ssh-brute -p 22 172.16.10.1
-   ```
-
-   - Attempts SSH brute-force login.
-
-5. **Using Custom Scripts**
-
-   ```bash
-   $ nmap --script /path/to/custom-script.nse 172.16.10.1
-   ```
-
-   - Runs a user-defined script.
+# Read the Nmap output line by line.
+while read -r line; do
+  if echo "${line}" | grep -q "report for"; then
+    ip=$(echo "${line}" | awk -F'for ' '{print $2}')
+  else
+    port=$(echo "${line}" | grep open | awk -F'/' '{print $1}')
+    file="port-${port}.txt"
+    echo "${ip}" >> "${file}"
+  fi
+done <<< "${RESULT}"
+```
 
 ---
 
-**Conclusion** Nmap is a powerful tool for reconnaissance, penetration testing, and security auditing. By mastering different scanning techniques and leveraging the Nmap Scripting Engine, users can efficiently analyze and secure networks.
+**Monitoring a Port and Running Service Discovery**
+This script continuously checks if a port is open and runs a service discovery scan once the port becomes available.
+
+```bash
+#!/bin/bash
+LOG_FILE="watchdog.log"
+IP_ADDRESS="${1}"
+WATCHED_PORT="${2}"
+
+service_discovery(){
+  local host
+  local port
+  host="${1}"
+  port="${2}"
+  nmap -sV -p "${port}" "${host}" >> "${LOG_FILE}"
+}
+
+while true; do
+  port_scan=$(docker run --network=host -it --rm --name rustscan rustscan/rustscan:2.1.1 -a "${IP_ADDRESS}" -g -p "${WATCHED_PORT}")
+
+  if [[ -n "${port_scan}" ]]; then
+    echo "${IP_ADDRESS} has started responding on port ${WATCHED_PORT}!"
+    echo "Performing a service discovery..."
+
+    if service_discovery "${IP_ADDRESS}" "${WATCHED_PORT}"; then
+      echo "Wrote port scan data to ${LOG_FILE}"
+      break
+    fi
+  else
+    echo "Port is not yet open, sleeping for 5 seconds..."
+    sleep 5
+  fi
+done
+```
+
+---
+
+**Conclusion**
+Nmap is a powerful tool for reconnaissance, penetration testing, and security auditing. By mastering different scanning techniques and leveraging scripting, users can efficiently analyze and secure networks.
