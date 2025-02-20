@@ -106,7 +106,9 @@ while read -r line; do
   fi
 done <<< "${RESULT}"
 ```
-**Under the hood - **
+
+**Under the hood -**
+
 - Assigns the output of the Nmap command to RESULT, filtering for lines containing "Nmap scan report" or "tcp open".
 
 - Reads RESULT line by line to identify open ports.
@@ -153,7 +155,8 @@ while true; do
   fi
 done
 ```
-**Under the hood - **
+
+**Under the hood -**
 
 - Starts an infinite loop to continuously scan a specified IP address and port using RustScan.
 
