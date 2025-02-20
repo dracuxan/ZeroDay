@@ -9,7 +9,7 @@ Nmap (Network Mapper) is an open-source tool used for network discovery and secu
 **A simple Nmap execution to discover live hosts using a ping sweep:**
 
 ```bash
-$ nmap -sn 172.16.10.0/24
+nmap -sn 172.16.10.0/24
 ```
 
 Output:
@@ -26,7 +26,7 @@ Host is up (0.00076s latency).
 To filter only live IPs, use:
 
 ```bash
-$ nmap -sn 172.16.10.0/24 | grep "Nmap scan" | awk -F'report for ' '{print $2}'
+nmap -sn 172.16.10.0/24 | grep "Nmap scan" | awk -F'report for ' '{print $2}'
 ```
 
 ---
@@ -38,7 +38,7 @@ Nmap supports various scan types, each serving a different purpose:
 1. **TCP SYN Scan (Stealth Scan)**
 
    ```bash
-   $ nmap -sS scanme.nmap.org
+   nmap -sS scanme.nmap.org
    ```
 
    - Sends SYN packets to check for open ports without establishing a full connection.
@@ -46,7 +46,7 @@ Nmap supports various scan types, each serving a different purpose:
 2. **TCP Connect Scan**
 
    ```bash
-   $ nmap -sT scanme.nmap.org
+   nmap -sT scanme.nmap.org
    ```
 
    - Establishes a full connection to determine open ports.
@@ -54,7 +54,7 @@ Nmap supports various scan types, each serving a different purpose:
 3. **UDP Scan**
 
    ```bash
-   $ nmap -sU scanme.nmap.org
+   nmap -sU scanme.nmap.org
    ```
 
    - Scans for open UDP ports, useful for detecting services like DNS and SNMP.
@@ -62,7 +62,7 @@ Nmap supports various scan types, each serving a different purpose:
 4. **Aggressive Scan**
 
    ```bash
-   $ nmap -A scanme.nmap.org
+   nmap -A scanme.nmap.org
    ```
 
    - Performs OS detection, version detection, script scanning, and traceroute.
@@ -70,7 +70,7 @@ Nmap supports various scan types, each serving a different purpose:
 5. **Scanning a Specific Port Range**
 
    ```bash
-   $ nmap -p 80,443,22 scanme.nmap.org
+   nmap -p 80,443,22 scanme.nmap.org
    ```
 
    - Scans for specific ports instead of all available ones.
@@ -78,7 +78,7 @@ Nmap supports various scan types, each serving a different purpose:
 6. **Service and Version Detection**
 
    ```bash
-   $ nmap -sV scanme.nmap.org
+   nmap -sV scanme.nmap.org
    ```
 
    - Identifies running services and their versions on the target.
