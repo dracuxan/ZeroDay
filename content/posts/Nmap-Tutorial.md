@@ -34,7 +34,7 @@ nmap -sn 172.16.10.0/24 | grep "Nmap scan" | awk -F'report for ' '{print $2}'
 
 ---
 
-### **Different Types of Scans in Nmap**
+## **Different Types of Scans in Nmap**
 
 Nmap supports various scan types, each serving a different purpose. These scans help in discovering live hosts, open ports, running services, OS details, and even security vulnerabilities.
 
