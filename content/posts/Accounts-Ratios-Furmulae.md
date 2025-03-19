@@ -3,9 +3,6 @@ author: Nisarg
 date: "2025-03-20"
 title: Accounting Ratios
 summary: Cheat Sheet for my Accounts Exam
-ShowToc: true
----
-
 ---
 
 ## **A. Ratios from the Balance Sheet Question**
@@ -53,8 +50,6 @@ ShowToc: true
    \text{Current Assets to Fixed Assets Ratio} = \frac{\text{Current Assets}}{\text{Fixed Assets}}
    \]
 
----
-
 ## **B. Ratios from the Profit and Loss Account Question**
 
 1. **Gross Profit Ratio**  
@@ -100,13 +95,9 @@ ShowToc: true
      \text{Production Overhead Cost Ratio} = \frac{\text{Manufacturing (Production) Expenses}}{\text{Cost of Production}} \times 100
      \]
 
----
-
 ### **Note on “Cost of Production” vs. “COGS”**
 
 - **Cost of Goods Sold (COGS)** often includes all direct manufacturing costs plus/minus changes in inventory of finished goods.
 - **Cost of Production** is typically the cost incurred in producing the goods (often _before_ selling and distribution expenses).
 
 Depending on the specific definitions and adjustments for opening/closing work in progress, finished goods, etc., these terms can differ slightly in practice.
-
----

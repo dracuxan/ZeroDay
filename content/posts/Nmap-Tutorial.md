@@ -7,6 +7,7 @@ ShowToc: true
 ---
 
 ## What is Nmap?
+
 Nmap (Network Mapper) is an open-source tool used for network discovery and security auditing. It allows users to scan networks and discover hosts, services, and open ports, providing valuable insights for penetration testing and network administration.
 
 **A simple Nmap execution to discover live hosts using a ping sweep:**
@@ -47,6 +48,7 @@ Nmap supports various scan types, each serving a different purpose. These scans 
 ```bash
 nmap -sS scanme.nmap.org
 ```
+
 **Description:**
 
 - Sends SYN packets to check for open ports without establishing a full TCP connection.
@@ -62,9 +64,11 @@ nmap -sS scanme.nmap.org
 ### **2. TCP Connect Scan**
 
 **Command:**
+
 ```bash
 nmap -sT scanme.nmap.org
 ```
+
 **Description:**
 
 - Establishes a full three-way TCP handshake to determine open ports.
@@ -104,6 +108,7 @@ nmap -sU scanme.nmap.org
 ```bash
 nmap -A scanme.nmap.org
 ```
+
 **Description:**
 
 - Performs multiple functions, including OS detection, version detection, script scanning, and traceroute.
@@ -123,6 +128,7 @@ nmap -A scanme.nmap.org
 ```bash
 nmap -p 80,443,22 scanme.nmap.org
 ```
+
 **Description:**
 
 - Limits the scan to specific ports instead of all available ones, reducing scan time.
@@ -142,6 +148,7 @@ nmap -p 80,443,22 scanme.nmap.org
 ```bash
 nmap -sV scanme.nmap.org
 ```
+
 **Description:**
 
 - Identifies running services and their versions on the target machine.
@@ -161,6 +168,7 @@ nmap -sV scanme.nmap.org
 ```bash
 nmap -O scanme.nmap.org
 ```
+
 **Description:**
 
 - Identifies the operating system of the target based on TCP/IP stack characteristics.
@@ -182,6 +190,7 @@ nmap -f scanme.nmap.org
 ```
 
 **Description:**
+
 - Uses tiny fragmented IP packets to bypass basic firewalls.
 - Useful for testing firewall configurations and IDS/IPS evasion.
 
@@ -193,6 +202,7 @@ nmap -f scanme.nmap.org
 ---
 
 ### **9. Null, Xmas, and FIN Scans (Firewall Bypass Techniques)**
+
 - These scans work by sending abnormal TCP packets to detect firewalls and closed ports.
 - **Null Scan (-sN):** Sends packets with no flags set.
 - **Xmas Scan (-sX):** Sends packets with FIN, PSH, and URG flags set.
@@ -204,11 +214,9 @@ nmap -f scanme.nmap.org
 nmap -sN scanme.nmap.org
 ```
 
-
 ```bash
 nmap -sX scanme.nmap.org
 ```
-
 
 ```bash
 nmap -sF scanme.nmap.org
@@ -233,6 +241,7 @@ nmap -sF scanme.nmap.org
 ```bash
 nmap --script=http-title scanme.nmap.org
 ```
+
 **Description:**
 
 - Uses Nmap scripts to detect vulnerabilities, brute-force login attempts, and extract information.
@@ -249,13 +258,13 @@ nmap --script=http-title scanme.nmap.org
 
 **Command:**
 
-
 ```bash
 nmap -sI zombiehost scanme.nmap.org
 
 ```
 
 **Description:**
+
 - Uses a "zombie" host to scan the target, making the scan appear as if it originates from the zombie.
 - Provides maximum stealth as it doesn't send packets directly from the attacker's machine.
 
@@ -361,8 +370,6 @@ done
 - If the port is closed, the script waits for five seconds before retrying.
 
 - Repeats the process until the port is found open.
-
-
 
 ---
 
