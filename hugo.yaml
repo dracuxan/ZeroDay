@@ -112,9 +112,12 @@ params:
   # icon: icon.png
   # iconHeight: 35
 
-  analytics:
-    google:
-      SiteVerificationTag: "G-VGX1JB9BPE"
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "G-VGX1JB9BPE"
+  services:
+  googleAnalytics:
+    id: G-VGX1JB9BPE
 
   assets:
     favicon: "https://i.ibb.co/W6w4rRj/dragon.png"
