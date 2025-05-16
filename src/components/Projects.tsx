@@ -11,36 +11,36 @@ interface Project {
 }
 const projectsData: Project[] = [
   {
-    title: "FormVibe",
-    description: "FormVibe is a platform that allows users to create and share forms with their friends.",
-    link: "https://form-vibe.vercel.app/",
-    code: "https://github.com/yatharth1706/FormVibe",
+    title: "nix-dots",
+    description: "Collection of dot files for my NixOS configurations",
+    link: "/blogs/nix-dots",
+    code: "https://github.com/dracuxan/nix-dots",
     previewImage: "/images/rice_v_f.png",
-    techStack: ["Next.js", "React", "Appwrite", "TypeScript", "Tailwind CSS",],
+    techStack: ["NixOS", "Nix", "Lua", "Python", "Makefile"],
   },
   {
-    title: "EmojiGit CLI Tool",
-    description: "EmojiGit is a CLI tool that allows you to add emojis to your git commits.",
-    link: "https://github.com/yatharth1706/EmojiGit",
-    code: "https://github.com/yatharth1706/EmojiGit",
-    previewImage: "/images/rice_v_f.png",
-    techStack: ["JavaScript", "Node.js", "Git", "Emoji", "Meow", "Inquirer"],
+    title: "The Thrift Project",
+    description: " A thrifty way to shop. A platform built to buy and sell thrifted clothing.",
+    link: "/blogs/thrift-project",
+    code: "https://github.com/TMP-The-Major-Project/Thrift-Store",
+    previewImage: "/images/the-thrift-project.png",
+    techStack: ["React", "Javascript", "Go", "Fiber(Go)", "Python(ML)", "Makefile"],
   },
   {
-    title: "CloudSpace",
-    description: "CloudSpace is a platform that allows users to create and share spaces with their friends.",
-    link: "https://cloud-space.vercel.app/",
-    code: "https://github.com/yatharth1706/Cloud-Space",
-    previewImage: "/images/rice_v_f.png",
-    techStack: ["Next.js", "React", "MongoDB", "Express", "Node.js", "TypeScript", "Tailwind CSS",],
+    title: "GoGrapical",
+    description: " A Joblisting API built to show GraphQL implementation using Go and MongoDB.",
+    link: "/blogs/go-graphical",
+    code: "https://github.com/dracuxan/GoGraphical",
+    previewImage: "/images/go_graphical.png",
+    techStack: ["Go", "MongoDB", "Yaml", "graphqls", "99designs"],
   },
   {
-    title: "BlogBuddy",
-    description: "BlogBuddy is a platform that allows users to create and share blogs with their friends.",
-    link: "https://blog-buddy-seven.vercel.app/",
-    code: "https://github.com/yatharth1706/BlogBuddy",
-    previewImage: "/images/rice_v_f.png",
-    techStack: ["Next.js", "React", "MongoDB", "Express", "Node.js", "TypeScript", "Tailwind CSS",],
+    title: "GoScout",
+    description: "GoScout is a powerful and efficient file search tool written in Go. It searchs for specific words across all files in a given directory, regardless of file type.",
+    link: "/blogs/go-scout",
+    code: "https://github.com/dracuxan/GoScout",
+    previewImage: "/images/go_scout.png",
+    techStack: ["go", "Makefile"],
   },
 ];
 
@@ -62,7 +62,7 @@ const Projects = () => {
               </div>
               <div className="flex gap-2 mt-2">
                 <Link href={item.link}>
-                  <Button variant="default">Preview</Button>
+                  <Button variant="default">Read More</Button>
                 </Link>
                 <Link href={item.code}>
                   <Button variant="outline">Code</Button>
