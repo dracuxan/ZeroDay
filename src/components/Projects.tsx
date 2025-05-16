@@ -50,7 +50,7 @@ const Projects = () => {
       <h1 className="text-2xl font-bold">[Projects]</h1>
       <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-4">
         {projectsData?.map((item, index) => (
-          <div key={item.title} className="flex flex-col border border-gray-100">
+          <div key={index} className="flex flex-col border border-gray-100">
             <img src={item.previewImage} className="w-full h-full"></img>
             <div className="flex flex-col gap-3 p-4">
               <h2 className="text-lg font-bold">{item.title}</h2>

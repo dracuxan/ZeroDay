@@ -1,5 +1,4 @@
 import CustomDock from "@/components/CustomDock"
-import Intro from "@/components/Intro"
 
 const Blogs = () => {
   return (

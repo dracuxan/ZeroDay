@@ -1,6 +1,6 @@
 "use client";
 
-import { BookIcon, CalendarIcon, HomeIcon, MailIcon, Moon, PencilIcon, Sun } from "lucide-react";
+import { BookIcon, CalendarIcon, HomeIcon, MailIcon, Moon, Sun } from "lucide-react";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 

@@ -1,6 +1,5 @@
 "use client";
 import Image from "next/image";
-import { Meteors } from "@/components/magicui/meteors";
 
 const Intro = () => {
   return (
