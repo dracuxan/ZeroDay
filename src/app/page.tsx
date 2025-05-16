@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 import { Meteors } from "@/components/magicui/meteors";
 import Intro from "@/components/Intro";
 import Skills from "@/components/Skills";
