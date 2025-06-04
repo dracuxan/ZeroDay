@@ -8,8 +8,18 @@ interface Project {
   code: string;
   previewImage: string;
   techStack: string[];
+  buttonText?: string;
 }
 const projectsData: Project[] = [
+  {
+    title: "MicroEcom",
+    description: "A lightweight and efficient e-commerce platform built with modern technologies, focusing on performance and user experience.",
+    link: "https://microdocs.bynisarg.in/",
+    code: "https://github.com/dracuxan/MicroEcom",
+    previewImage: "/images/microecom.jpeg",
+    techStack: ["go", "Makefile", "swagger", "docker"],
+    buttonText: "Docs"
+  },
   {
     title: "nix-dots",
     description: "Collection of dot files for my NixOS configurations",
@@ -17,14 +27,6 @@ const projectsData: Project[] = [
     code: "https://github.com/dracuxan/nix-dots",
     previewImage: "/images/rice_v_f.png",
     techStack: ["NixOS", "Nix", "Lua", "Python", "Makefile"],
-  },
-  {
-    title: "The Thrift Project",
-    description: " A thrifty way to shop. A platform built to buy and sell thrifted clothing.",
-    link: "/blogs/thrift-project",
-    code: "https://github.com/TMP-The-Major-Project/Thrift-Store",
-    previewImage: "/images/the-thrift-project.png",
-    techStack: ["React", "Javascript", "Go", "Fiber(Go)", "Python(ML)", "Makefile"],
   },
   {
     title: "GoGrapical",
@@ -61,11 +63,11 @@ const Projects = () => {
                 ))}
               </div>
               <div className="flex gap-2 mt-2">
-                <Link href={item.link}>
-                  <Button variant="default">Read More</Button>
+                <Link href={item.link} {...(item.buttonText === "Docs" ? { target: "_blank", rel: "noopener noreferrer" } : {})}>
+                  <Button variant="default">{item.buttonText || "Read More"}</Button>
                 </Link>
-                <Link href={item.code}>
-                  <Button variant="outline">Code</Button>
+                <Link href={item.code} target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline">Source Code</Button>
                 </Link>
               </div>
             </div>
