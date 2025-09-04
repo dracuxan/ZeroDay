@@ -89,11 +89,6 @@ const DATA = {
         url: "https://linkedin.com/in/nisargkhodke",
         icon: Icons.linkedin,
       },
-      X: {
-        name: "X",
-        url: "https://x.com/dracuxan",
-        icon: Icons.x,
-      },
       email: {
         name: "Send Email",
         url: "mailto:nisargkhodke@gmail.com",
