@@ -25,4 +25,4 @@ The name comes from “zero-day” in security, but here it’s about **fresh st
 
 ---
 
-Stay tuned — I’ll keep sharing what I build, learn, and break along the way 🚀
+Stay tuned as I’ll keep sharing what I build, learn, and break.
