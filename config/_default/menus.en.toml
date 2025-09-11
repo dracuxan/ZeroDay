@@ -11,7 +11,7 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Blog"
+  name = "Posts"
   pageRef = "posts"
   weight = 10
 
@@ -33,23 +33,13 @@
   weight = 50
 
 [[main]]
-  identifier = "twitter"
-  pre = "X"
+  identifier = "x-twitter"
+  pre = "x-twitter"
   url = "https://x.com/dracuxan"
-  weight = 60
+  weight = 50
 
 [[main]]
   identifier = "linkedin"
-  pre = "LinkedIn"
+  pre = "linkedin"
   url = "https://linkedin.com/in/nisargkhodke"
   weight = 60
-
-# -- Footer Menu --
-# The footer menu is displayed at the bottom of the page, just before
-# the copyright notice. Configure as per the main menu above.
-
-
- [[footer]]
-   name = "Tags"
-   pageRef = "tags"
-   weight = 10

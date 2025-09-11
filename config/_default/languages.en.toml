@@ -1,24 +1,24 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "ZeroDay"
+title = "dracuxan"
 
 [params]
   displayName = "EN"
   isoCode = "en"
   rtl = false
-  logo = "img/dragon.png"
-  description = "My awesome website"
-  copyright = "Copy, _right?_ :thinking_face:"
+  # logo = "img/logo.png"
+  description = "A vault to Day-0 of my projects and more"
+  # copyright = "Copy, _right?_ :thinking_face:"
   dateFormat = "2 January 2006"
 
 [params.author]
   name = "dracuxan"
   image = "img/dragon.png"
-  headline = "A vault to my Zero-Day Projects and more"
+  headline = "Yet another CS undergrad trying to build yet another reliable software."
   bio = "Yet another CS undergrad trying to build yet another reliable software."
    links = [
-     { link = "https://bynisarg.in" },
      { github = "https://github.com/dracuxan" },
-     { x-twitter = "https://x.com/dracuxan" }
+     { x-twitter = "https://x.com/dracuxan" },
+     { linkedin = "https://linkedin.com/in/nisargkhodke" }
    ]
