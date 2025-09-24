@@ -46,8 +46,8 @@ mainSections = ["posts"]
   heroStyle = "background" # valid options: basic, big, background
   showBreadcrumbs = true
   showDraftLabel = true
-  showEdit = false
-  # editURL = "https://github.com/username/repo/"
+  showEdit = ture
+  editURL = "https://github.com/dracuxan/ZeroDay/"
   editAppendPath = true
   seriesOpened = false
   showHeadingAnchors = true
@@ -80,13 +80,13 @@ mainSections = ["posts"]
   showTermCount = true
 
 [firebase]
-  # apiKey = "XXXXXX"
-  # authDomain = "XXXXXX"
-  # projectId = "XXXXXX"
-  # storageBucket = "XXXXXX"
-  # messagingSenderId = "XXXXXX"
-  # appId = "XXXXXX"
-  # measurementId = "XXXXXX"
+  apiKey = "AIzaSyByUDwDPvFaoPVjAyBsmlzHlfywZ-940B8",
+  authDomain = "zeroday-59f8f.firebaseapp.com",
+  projectId = "zeroday-59f8f",
+  storageBucket = "zeroday-59f8f.firebasestorage.app",
+  messagingSenderId = "622759160750",
+  appId = "1:622759160750:web:6c8501f5b6e383cf4df63f",
+  measurementId = "G-7TRGWKK1CE"
 
 [fathomAnalytics]
   # site = "ABC12345"
