@@ -19,6 +19,6 @@ title = "dracuxan"
   bio = "Yet another CS undergrad trying to build yet another reliable software."
    links = [
      { github = "https://github.com/dracuxan" },
-     { x-twitter = "https://x.com/dracuxan" },
+     # { x-twitter = "https://x.com/dracuxan" },
      { linkedin = "https://linkedin.com/in/nisargkhodke" }
    ]

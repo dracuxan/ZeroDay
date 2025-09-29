@@ -32,11 +32,11 @@
   url = "https://github.com/dracuxan"
   weight = 50
 
-[[main]]
-  identifier = "x-twitter"
-  pre = "x-twitter"
-  url = "https://x.com/dracuxan"
-  weight = 50
+# [[main]]
+#   identifier = "x-twitter"
+#   pre = "x-twitter"
+#   url = "https://x.com/dracuxan"
+#   weight = 50
 
 [[main]]
   identifier = "linkedin"
