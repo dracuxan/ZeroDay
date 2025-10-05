@@ -2,7 +2,7 @@
 author: Nisarg
 date: "2025-03-31"
 title: A Beginner's Guide to Setting Up and Using GitHub CLI
-summary: A quick setup for you `gh` cli tool
+summary: A quick setup for `gh` cli tool
 ---
 
 As someone just starting out with command-line tools, I wanted to document how to set up, configure, and use the GitHub CLI (Command Line Interface)
