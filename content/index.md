@@ -1,6 +1,7 @@
 ---
-title: Welcome to Quartz
+title: dracuxan
+date: 2025-04-11
+enableToc: false
 ---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+Yolo! dracuxan this side! This is my space where I share my projects, experiments, and thoughts around tech, security, and everything I’m learning.
