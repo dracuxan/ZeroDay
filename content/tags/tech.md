@@ -1,0 +1,1 @@
+all about tech. may include - experience, docs, or just observations
