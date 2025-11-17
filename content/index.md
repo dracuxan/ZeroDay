@@ -10,7 +10,7 @@ Yolo! Nisarg this side! This is my space where I share my projects, experiments,
 
 Currently I'm working with a startup as a Web Developer and working on some side project and a few blogs -
 
-- [[NeoVim for Losers]]
+- [[Neovim for Losers]]
 - [[My Love for Blod]]
 
 Want to know more? Then click [[about|here]].
