@@ -1,12 +1,12 @@
 ---
-title: Daily Log Structure
+title: Logs
 description: How I structure and organize my daily logs
 tags:
   - logs
   - methodology
 date: 2026-01-06
 ---
-# Daily Log Structure
+# Logs
 
 ## What I Track
 
